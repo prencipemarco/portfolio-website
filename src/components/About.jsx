@@ -25,7 +25,8 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Studente di informatico con la passione per lo sviluppo di pagine web e con grande capacità di trubleshooting.
+              un ragazzo di 25 anni, studente di Informatica all'Università di Bari appassionato di programmazione e tecnologia, al passo con le ultime tendenze del settore. Sono sempre alla ricerca di nuove sfide e opportunità per crescere come sviluppatore e come persona. La mia curiosità mi spinge a esplorare nuove tecnologie e a migliorare le mie competenze, con l'obiettivo di creare soluzioni innovative e di alta qualità.
+
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

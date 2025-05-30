@@ -13,7 +13,6 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-10 max-w-lg mx-auto">
-            un ragazzo di 25 anni, studente di Informatica all'Università di Bari appassionato di programmazione e tecnologia, al passo con le ultime tendenze del settore. Sono sempre alla ricerca di nuove sfide e opportunità per crescere come sviluppatore e come persona. La mia curiosità mi spinge a esplorare nuove tecnologie e a migliorare le mie competenze, con l'obiettivo di creare soluzioni innovative e di alta qualità.
           </p>
           <div className="flex justify-center space-x-4">
             <a

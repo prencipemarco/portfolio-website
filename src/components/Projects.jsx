@@ -199,8 +199,6 @@ const ProjectCard = ({ id, title, description, tech, images, github, documentati
         
         {/* Overlay gradiente */}
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent z-10"></div>
-        
-
       </div>
 
       {/* Contenuto testuale */}
