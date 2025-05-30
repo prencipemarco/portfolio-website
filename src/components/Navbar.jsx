@@ -11,7 +11,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-xl font-bold text-white">
             {" "}
-            pedro<span className="text-blue-500">.tech</span>{" "}
+            marco<span className=" text-[rgb(69,85,115)]">.prencipe</span>{" "}
           </a>
 
           <div
@@ -24,33 +24,30 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           <div className="hidden md:flex items-center space-x-8">
             <a
               href="#home"
-              className="text-gray-300 hove:text-white transition-colors"
+              className="text-gray-300 hover:text-white hover:bg-[rgba(69,85,115,0.3)] rounded-md px-2 py-1 transition-colors"
             >
-              {" "}
               Home
             </a>
             <a
               href="#about"
-              className="text-gray-300 hove:text-white transition-colors"
+              className="text-gray-300 hover:text-white hover:bg-[rgba(69,85,115,0.3)] rounded-md px-2 py-1 transition-colors"
             >
-              {" "}
-              About{" "}
+              About
             </a>
             <a
               href="#projects"
-              className="text-gray-300 hove:text-white transition-colors"
+              className="text-gray-300 hover:text-white hover:bg-[rgba(69,85,115,0.3)] rounded-md px-2 py-1 transition-colors"
             >
-              {" "}
-              Projects{" "}
+              Projects
             </a>
             <a
               href="#contact"
-              className="text-gray-300 hove:text-white transition-colors"
+              className="text-gray-300 hover:text-white hover:bg-[rgba(69,85,115,0.3)] rounded-md px-2 py-1 transition-colors"
             >
-              {" "}
-              Contact{" "}
+              Contact
             </a>
           </div>
+
         </div>
       </div>
     </nav>
