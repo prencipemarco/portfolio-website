@@ -27,7 +27,7 @@ const projectsData = [
   },
 ];
 
-function Projects() {
+export const Projects = () => {
   return (
     <section
       id="projects"
@@ -53,6 +53,8 @@ function Projects() {
     </section>
   );
 }
+
+
 
 const ProjectCard = ({ title, description, tech, images, github }) => {
   const [hovered, setHovered] = useState(false);
@@ -128,5 +130,3 @@ const ProjectCard = ({ title, description, tech, images, github }) => {
     </div>
   );
 };
-
-export default Projects;
