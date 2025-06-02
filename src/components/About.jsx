@@ -7,8 +7,6 @@ export const About = () => {
     "PowerPoint",
     "Windows",
     "Linux",
-
-
   ];
 
   const programmingSkills = [
@@ -41,7 +39,7 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              un ragazzo di 25 anni, studente di Informatica all'Università di Bari appassionato di programmazione e tecnologia, al passo con le ultime tendenze del settore. Sono sempre alla ricerca di nuove sfide e opportunità per crescere come sviluppatore e come persona. La mia curiosità mi spinge a esplorare nuove tecnologie e a migliorare le mie competenze, con l'obiettivo di creare soluzioni innovative e di alta qualità.
+              un ragazzo di 25 anni, studente di Informatica all'Università di Bari, appassionato di programmazione e tecnologia, al passo con le ultime tendenze del settore. Sono sempre alla ricerca di nuove sfide e opportunità per crescere come sviluppatore e come persona. La mia curiosità mi spinge a esplorare nuove tecnologie e a migliorare le mie competenze, con l'obiettivo di creare soluzioni innovative e di alta qualità.
 
             </p>
 
@@ -52,9 +50,7 @@ export const About = () => {
                   {competenzeSoftware.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
-                    "
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                     >
                       {tech}
                     </span>
@@ -68,9 +64,7 @@ export const About = () => {
                   {programmingSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
-                    "
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition"
                     >
                       {tech}
                     </span>
@@ -103,8 +97,7 @@ export const About = () => {
                     Servizio Civile Digitale presso Comune di Mattinata (2023 - 2024){" "}
                   </h4>
                   <p>
-                    Assistenza HW e SW all'utenza, gestione e configurazione
-                    dispositivi, gestione e configurazione reti stampanti e PC ufficio
+                    Assistenza HW e SW all'utenza, gestione e configurazione dispositivi, gestione e configurazione reti stampanti e PC ufficio
                   </p>
                 </div>
               </div>

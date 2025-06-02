@@ -241,7 +241,8 @@ const ProjectCard = ({ id, title, description, tech, images, github, documentati
             </a>
             {documentation && documentation.trim() !== "" && (
               <a
-                href={documentation}
+                href="/assets/Documentazione.pdf"
+                download
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
